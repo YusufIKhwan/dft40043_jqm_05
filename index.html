@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/colour1.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div data-role="tabs" id="tabs">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#one" data-ajax="false">one</a></li>
+              <li><a href="#two" data-ajax="false">two</a></li>
+              <li><a href="ajax-content-ignore.html" data-ajax="false">three</a></li>
+            </ul>
+          </div>
+          <div id="one" class="ui-body-d ui-content">
+            <h1>First tab contents</h1>
+          </div>
+          <div id="two">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Acura</a></li>
+                <li><a href="#">Audi</a></li>
+                <li><a href="#">BMW</a></li>
+                <li><a href="#">Cadillac</a></li>
+                <li><a href="#">Ferrari</a></li>
+            </ul>
+          </div>
+        </div>
+    
+    <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-left">Betul</a>
+     <button class="ui-btn ui-icon-delete ui-btn-icon-left">Salah</button>
+
+     <form>
+            <input type="button" value="Button">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
